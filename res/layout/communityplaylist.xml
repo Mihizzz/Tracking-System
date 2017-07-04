@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Glaucous"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Next Destination"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#79f1faff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/plylistbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="fetch"
+        android:text="View Destination"
+        android:textColor="#fffaf4ff"
+        android:textSize="26dp" />
+
+</LinearLayout>
